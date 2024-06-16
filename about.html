@@ -19,6 +19,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
     </head>
 
+<div w3-include-html="navbar.html"></div>
+
 <div class="person">
     <div class="container">
       <div class="container-inner">
@@ -50,16 +52,4 @@
   <p class="copyright">© BloomShell 2022 - 2024</p>
 </footer>
 </html>
-
-<!-- JavaScript to include navbar.html -->
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-      const includeElement = document.getElementById('navbar-placeholder');
-      fetch('navbar.html')
-          .then(response => response.text())
-          .then(data => {
-              includeElement.innerHTML = data;
-          })
-          .catch(error => console.error('Error loading navbar:', error));
-  });
-</script>
+ 
