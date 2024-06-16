@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-
-<div w3-include-html="navbar.html"></div>
-
 <html lang="en">
 
     <head>
@@ -21,7 +18,8 @@
         <!-- Chart.js/2.9.4 -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
     </head>
-    
+
+<iframe src="navbar.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
 <div class="person">
     <div class="container">
       <div class="container-inner">
