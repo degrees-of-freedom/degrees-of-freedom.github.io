@@ -95,7 +95,7 @@
       top: 60px;
       left: 60px;
       width: 0;
-      height: 205;
+      height: 210;
       background-color: rgba(20, 21, 26,0.6);
       border-bottom-right-radius: 300%;
       z-index: -1;
@@ -119,7 +119,7 @@
       position: fixed;
       visibility: hidden;
       top: 65px;
-    height: 205;
+    height: 210;
     left: 50px;
       text-align: left;
   }
@@ -224,7 +224,7 @@
   }
   body.nav-active .nav:before, body.nav-active .nav:after {
       width: 190px; /* width after navbar */
-      height: 205px; /* height after navbar */
+      height: 210px; /* height after navbar */
       border-radius: 55px;
   }
   body.nav-active .nav:after {
