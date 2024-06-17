@@ -35,7 +35,7 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  width: 280px;
+  width: 500px;
 }
 .container {
   border-radius: 50%;
