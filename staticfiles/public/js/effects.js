@@ -4,7 +4,8 @@ const text = document.querySelector('.typing-text');
 // make a words array
 const words = [
   "Welcome Traveler",
-  "Auth:[DARE:V.500341(S1)] - Connection Established!",
+  "Auth:[DARE:V.500341(S1)]",
+  "Connection Established!",
   "BloomShell Online...",
   "Keep it Clean!", 
   "Systems online. Navigate using the menu in the top left.",
