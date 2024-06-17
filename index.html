@@ -19,7 +19,7 @@
     <link rel="stylesheet" type="text/css" href="staticfiles/public/css/navbar.css">
 </head> 
    
- 
+ <!-- Navigation Bar Start -->
 <header class="cd-header">
     <div class="header-wrapper">
       <div class="nav-but-wrap">
@@ -60,6 +60,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
   <script src="staticfiles/public/js/navbar.js"></script>
 
+    <!-- Navigation Bar End -->
+
 <body>
     <div class="header">
         <!-- Content before waves -->
@@ -96,21 +98,5 @@
 
     <script src="staticfiles/public/js/effects.js"></script>
 
-    <!-- JavaScript to include navbar.html -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const includes = document.querySelectorAll('[data-include]');
-            includes.forEach(include => {
-                let file = include.getAttribute('data-include');
-                fetch(file)
-                    .then(response => response.text())
-                    .then(data => {
-                        include.innerHTML = data;
-                    })
-                    .catch(error => console.error('Error loading file:', error));
-            });
-        });
-    </script>
 </body>
-
 </html>
