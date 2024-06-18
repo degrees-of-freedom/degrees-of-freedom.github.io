@@ -23,7 +23,7 @@ This project involves the containerization of a Django web application using Doc
 
 ![Django](https://img.icons8.com/color/48/000000/django.png)
 ![Docker](https://img.icons8.com/color/48/000000/docker.png)
-![PostgreSQL](https://img.icons8.com/color/48/000000/postgresql.png)
+![PostgreSQL](https://icons8.com/icon/38561/postgresql)
 ![Gunicorn](https://img.icons8.com/color/48/000000/gunicorn.png)
 ![Nginx](https://img.icons8.com/color/48/000000/nginx.png)
 ![AWS EC2](https://img.icons8.com/color/48/000000/amazon-web-services.png)
