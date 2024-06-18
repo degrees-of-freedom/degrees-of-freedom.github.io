@@ -1,31 +1,10 @@
 # Dockerized Django Project on AWS EC2
 
-## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Prerequisites](#prerequisites)
-3. [Architecture](#architecture)
-4. [Setup Instructions](#setup-instructions)
-   - [1. Clone the Repository](#1-clone-the-repository)
-   - [2. Configure Environment Variables](#2-configure-environment-variables)
-   - [3. Build and Run Docker Containers](#3-build-and-run-docker-containers)
-   - [4. Apply Database Migrations](#4-apply-database-migrations)
-   - [5. Access the Application](#5-access-the-application)
-5. [Deployment on AWS EC2](#deployment-on-aws-ec2)
-   - [1. Create and Configure EC2 Instance](#1-create-and-configure-ec2-instance)
-   - [2. Install Docker on EC2](#2-install-docker-on-ec2)
-   - [3. Deploy Containers to EC2](#3-deploy-containers-to-ec2)
-6. [Important Commands](#important-commands)
-7. [Common Issues and Troubleshooting](#common-issues-and-troubleshooting)
-8. [Credits and Resources](#credits-and-resources)
-
 ## Project Overview
 This project involves the containerization of a Django web application using Docker. The stack includes Django for the web framework, PostgreSQL for the database, Gunicorn as the application server, and Nginx as the reverse proxy server. The deployment is managed on an Amazon Web Services (AWS) EC2 instance. This setup is ideal for scalable, production-grade web applications.
 
 ![Django](https://img.icons8.com/color/48/000000/django.png)
 ![Docker](https://img.icons8.com/color/48/000000/docker.png)
-![PostgreSQL](https://icons8.com/icon/38561/postgresql)
-![Gunicorn](https://img.icons8.com/color/48/000000/gunicorn.png)
-![Nginx](https://img.icons8.com/color/48/000000/nginx.png)
 ![AWS EC2](https://img.icons8.com/color/48/000000/amazon-web-services.png)
 
 ## Prerequisites
@@ -44,11 +23,27 @@ The architecture consists of:
 
 Each component runs in a separate Docker container, facilitating isolated environments and consistent behavior across different stages of development and deployment.
 
-## Setup Instructions
-
-### 1. Clone the Repository
-Start by cloning the project repository from GitHub to your local machine:
+## Important Commands
 
 ```bash
-git clone https://github.com/yourusername/your-django-project.git
-cd your-django-project
+docker-compose up --build
+ 
+```bash
+docker-compose down
+
+```bash
+docker-compose logs -f
+
+```bash
+docker-compose exec <service_name> <command>
+
+## Credits and Resources
+
+This project setup was inspired by and closely follows the comprehensive guide on [TestDriven.io](https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/). It provides an in-depth look at containerizing Django applications and is a valuable resource for understanding the Docker ecosystem.
+
+![TestDriven.io](https://img.icons8.com/color/48/000000/online.png)
+
+For more details and additional resources, visit:
+- [Django Documentation](https://docs.djangoproject.com/)
+- [Docker Documentation](https://docs.docker.com/)
+- [AWS EC2 Documentation](https://docs.aws.amazon.com/ec2/)
