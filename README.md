@@ -29,8 +29,6 @@ Each component runs in a separate Docker container, facilitating isolated enviro
 
 This project setup was inspired by and closely follows the comprehensive guide on [TestDriven.io](https://testdriven.io/blog/dockerizing-django-with-postgres-gunicorn-and-nginx/). It provides an in-depth look at containerizing Django applications and is a valuable resource for understanding the Docker ecosystem.
 
-![TestDriven.io](https://img.icons8.com/color/48/000000/online.png)
-
 For more details and additional resources, visit:
 - [Django Documentation](https://docs.djangoproject.com/)
 - [Docker Documentation](https://docs.docker.com/)
