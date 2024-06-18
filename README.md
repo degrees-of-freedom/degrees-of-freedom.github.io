@@ -23,7 +23,27 @@ The architecture consists of:
 
 Each component runs in a separate Docker container, facilitating isolated environments and consistent behavior across different stages of development and deployment.
 
+## Important Commands
 
+* Build and run containers:
+```bash
+docker-compose up --build
+```
+
+* Stop containers:
+```bash
+docker-compose down
+```
+
+* View logs:
+```bash
+docker-compose logs -f
+```
+
+* Run a command inside a container:
+```bash
+docker-compose exec <service_name> <command>
+```
 
 ## Credits and Resources
 
