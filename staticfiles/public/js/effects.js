@@ -3,22 +3,9 @@ const text = document.querySelector('.typing-text');
 
 // make a words array
 const words = [
-  "Welcome Traveler",
-  "Auth:[DARE:V.500341(S1)]",
-  "Connection Established!",
-  "BloomShell Online...",
-  "Keep it Clean!", 
-  "Systems online. Navigate using the menu in the top left.",
-  "Hey, not all heroes wear capes, some just use the navigation bar in the top left!",
-  "Initiating virtual coffee break protocol... Enjoy!",
+  "Welcome on Degrees-Of-Freedom... Connection Established!",
   "Keep it Clean... or at least don't break the site.",
-  "Where do we go from here? The navigation bar in the top left knows!",
   "System alert: Your coffee is getting cold.",
-  "Looking for secrets? The navigation bar in the top left might have some!",
-  "Keep it Clean! Spilled coffee detected near the navigation bar.",
-  "Lost? The navigation bar in the top left is your map.",
-  "Loading fun fact... Did you know penguins can't fly?",
-  "Scanning for inspiration... Found it in the top left!",
   "Scanning... Are you trying to find something or just hanging out?",
 ];
 
