@@ -3,7 +3,7 @@ const text = document.querySelector('.typing-text');
 
 // make a words array
 const words = [
-  "Welcome on Degrees-Of-Freedom... Connection Established!",
+  "Welcome in Degrees-Of-Freedom... Connection Established!",
   "Keep it Clean... or at least don't break the site.",
   "System alert: Your coffee is getting cold.",
   "Scanning... Are you trying to find something or just hanging out?",
